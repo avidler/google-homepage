@@ -1,0 +1,167 @@
+html, body {
+ margin: 0px;
+ padding: 0px;
+ border: 0px;
+ }
+
+ a{
+	 text-decoration:none;
+ }
+ 
+  a:hover{
+	 text-decoration:underline;
+ }
+
+body {
+ font-family: arial,sans-serif;
+ font-size: small;
+ }
+
+#header{
+	position:fixed;
+	width: 100%;
+	padding:8px 25px 5px 0px;
+	right:5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	
+
+}
+
+li{
+	display:inline;
+	height:42px;
+
+}
+
+#header ul{
+	float:right;
+	padding-right:5px;
+}
+
+#header ul li{
+	padding:5px;
+}
+
+#headerMenu{
+	
+display: inline;
+ line-height: 42px;
+   
+}
+
+ul li .menuApps{
+	
+	display:inline-block;
+	width:30px;
+	height:30px;
+	background-position: -130px -32px;
+	background-image: url("i1_1967ca6a.png");
+	background-repeat: no-repeat;
+	
+}
+
+ul li.signin{
+	background-color:#4285f4;
+	color:#ffffff;
+	font-weight:bold;
+	padding:7px 12px 7px 12px !important;
+	border-radius:1px;
+}
+
+#content{
+	position:absolute;
+	top:200px;
+	width:100%;
+	margin:auto;
+	text-align:center;
+}
+
+#logo{
+	margin:auto;
+	width:272px;
+	height:92px;
+	background-size: 272px 92px;
+	background-image: url("googlelogo_color_272x92dp.png");
+}
+
+#searchbar{
+	margin-top:20px;
+}
+
+#searchbar input{
+	width:600px;
+	height:48px;
+	border: 1px solid #ebebeb;
+	
+}
+
+
+  input[type="text"]{
+       background-image: url("l5S4LZ2.png");
+	   background-repeat:no-repeat;
+	   background-size: 24px 24px;
+	   background-position:96% 50%;
+	   box-shadow: 0 2px 1px -1px grey
+	   
+	   
+    }
+
+#searchButtons{
+	padding-top:28px;
+}
+
+#searchButtons button{
+	width:126px;
+	height:36px;
+	border-style:none;
+	font-weight:bold;
+	background-color:#f2f2f2;
+	color:#757575;
+	cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+}
+
+#footer{
+	position:absolute;
+	bottom:0px;
+	width:100%;
+	background-color:#f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	line-height:40px;
+	
+	font-family: arial,sans-serif;
+	font-size:small;
+	color:#666;
+}
+
+#tagline{
+	margin-top:24px;
+}
+
+span#leftList{
+	float:left;
+	
+}
+
+span#rightList{
+	float:right;
+	
+}
+
+span#leftList li{
+	padding-left:10px;
+}
+
+
+span#rightList li{
+	
+	padding-left:10px;
+}
+
+
