@@ -6,6 +6,7 @@ html, body {
 
  a{
 	 text-decoration:none;
+	 color:#666;
  }
  
   a:hover{
@@ -113,6 +114,8 @@ ul li.signin{
 
 #searchButtons{
 	padding-top:28px;
+		padding-left:5px;
+	padding-right:5px;
 }
 
 #searchButtons button{
@@ -125,6 +128,13 @@ ul li.signin{
 	cursor: default;
     font-family: arial,sans-serif;
     font-size: 13px;
+
+}
+
+#searchButtons button:hover{
+	color:#000;
+	border-style:solid;
+	
 }
 
 #footer{
@@ -151,17 +161,19 @@ span#leftList{
 
 span#rightList{
 	float:right;
-	
+	padding-right:18px;
 }
 
 span#leftList li{
 	padding-left:10px;
+	padding-left:18px;
 }
 
 
 span#rightList li{
 	
 	padding-left:10px;
+	padding-right:12px;
 }
 
 
